@@ -1,8 +1,9 @@
 package com.goliatbank.bank.domain;
 
 import java.math.BigDecimal;
+import java.util.List;
 
-public class Savings {
+public class SavingsAccount {
 
     private Long id;
     private int accountNumber;

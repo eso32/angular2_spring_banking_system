@@ -1,6 +1,7 @@
 package com.goliatbank.bank.domain;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class PrimaryAccount {
 
@@ -8,7 +9,7 @@ public class PrimaryAccount {
     private int accountNumber;
     private BigDecimal accountBalance;
 
-    private List<PrimaryTransaction> primaryTransactionList
+    private List<PrimaryTransaction> primaryTransactionList;
 
     public Long getId() {
         return id;
